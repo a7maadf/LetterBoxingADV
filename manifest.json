@@ -18,6 +18,12 @@
         "matches": ["<all_urls>"],
         "js": ["main.js"]
       }
-    ]
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "LetterBoxADV@ahmad-fawzy.com",
+        "strict_min_version": "42.0"
+      }
+    }
   
   }
