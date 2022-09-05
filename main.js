@@ -2,7 +2,7 @@
 var str = document.activeElement.outerHTML
 var OldHtml = str
 let pattern = /requestFullscreen/
-const patterns = [/requestFullscreen/, /webkitRequestFullscreen/, /msRequestFullscreen/, /mozFullScreenEnabled/];
+const patterns = [/requestFullscreen/, /webkitRequestFullscreen/, /msRequestFullscreen/, /mozFullScreenEnabled/, /mozRequestFullScreen/];
 
 function checkIfExceptionIsMade() {
     if (window.find("Please wait") == true) {
