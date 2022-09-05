@@ -69,10 +69,8 @@ for (let i = 0; i < patterns.length; i++) {
         var NewHtml = TheFunction
         //NewHtml += "<div class=commented-container>" + "<!--" + OldHtml + "-->" + "</div>" ;
         document.activeElement.outerHTML =  NewHtml
-        console.log(document.activeElement.outerHTML)
-            if (Exception == true) {
-                alert(1);
-            }
+        // console.log(document.activeElement.outerHTML)
+
         }
     }
 
