@@ -1,29 +1,28 @@
 {
-
-    "manifest_version": 2,
-    "name": "LetterBoxADV",
-    "version": "1.0",
-  
-    "description": "Patch for the letterboxing bypass vulnerability",
-
-    "icons": {
-      "48": "icons/border-48.png",
-      "96": "icons/border-96.png"
-    },
-    "permissions": [
-      "activeTab"
-    ],
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["main.js"]
-      }
-    ],
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "LetterBoxADV@ahmad-fawzy.com",
-        "strict_min_version": "42.0"
-      }
+  "manifest_version": 2,
+  "name": "LetterBoxADV",
+  "version": "1.0",
+  "description": "Patch for the letterboxing bypass vulnerability",
+  "icons": {
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "main.js"
+      ]
     }
-  
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{833de62f-f81f-4d79-af08-ea744f36a62a}"
+    }
   }
+}
