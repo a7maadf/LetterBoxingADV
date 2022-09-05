@@ -1,12 +1,12 @@
 
-var str = document.activeElement.outerHTML
+var str = document.documentElement.innerHTML
 var OldHtml = str
-let pattern = /requestFullscreen/
-const patterns = [/requestFullscreen/, /webkitRequestFullscreen/, /msRequestFullscreen/, /mozFullScreenEnabled/, /mozRequestFullScreen/, /mozrequestFullScreen];
+let pattern = /mozRequestFullScreen/
+const patterns = [/mozRequestFullScreen/, /requestFullscreen/, /webkitRequestFullscreen/, /msRequestFullscreen/, /mozFullScreenEnabled/];
 
 function checkIfExceptionIsMade() {
     if (window.find("Please wait") == true) {
-      document.activeElement.outerHTML =  OldHtml;
+        document.documentElement.innerHTML =  OldHtml;
 
     }
     timeoutId = setTimeout(checkIfExceptionIsMade, 500);
