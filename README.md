@@ -6,4 +6,4 @@ The way the extention works is it scans webpages for potential "fullscreen" requ
 
 ![](https://i.ibb.co/DRfNjj0/image.png)
 
-Download link: https://addons.mozilla.org/en-US/firefox/addon/letterboxadv/ (wont work, mozilla are reviewing it)
+Download link: https://addons.mozilla.org/en-US/firefox/addon/letterboxadv/
